@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Package_Suite">
+  <test thread-count="5" name="Package_Level_Test">
+  
+  	<groups>
+  		<run>
+  			<include name="Sanity"/>
+  		</run>
+  	</groups>
+  	
+    <packages>
+    	<package name="com.Regression"/>
+    	<package name="com.Sanity"/>
+    	<package name="com.Smoke"/>
+    </packages>
+  </test> <!-- Package_Level_Test -->
+</suite> <!-- Package_Suite -->

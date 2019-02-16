@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression_Suite">
+  <test  thread-count="5" parallel="classes" name="Regreesion_Test">
+  	
+  	<groups>
+  		<run>
+  			<include name="Smoke"/>
+  			<exclude name="Sanity"/>
+  		</run>	
+  	</groups>
+  	
+    <classes>
+      <class name="com.Regression.Regression_1"/>
+      <class name="com.Regression.Regression_2"/>
+      <class name="com.Regression.Regression_3"/>
+      <class name="com.Regression.Regression_4"/>
+      <class name="com.Regression.Regression_5"/>
+      <class name="com.Regression.Regression_6"/>
+      <class name="com.Regression.Regression_7"/>
+      <class name="com.Regression.Regression_8"/>
+      <class name="com.Regression.Regression_9"/>
+    </classes>
+  </test> <!-- Regreesion_Test -->
+</suite> <!-- Regression_Suite -->

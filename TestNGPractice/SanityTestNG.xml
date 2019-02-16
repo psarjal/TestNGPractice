@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity_Suite">
+  <test thread-count="5" name="Sanity_Test">
+    <classes>
+      <class name="com.Sanity.Sanity_6"/>
+      <class name="com.Sanity.Sanity_4"/>
+      <class name="com.Sanity.Sanity_5"/>
+      <class name="com.Sanity.Sanity_2"/>
+      <class name="com.Sanity.Sanity_3"/>
+      <class name="com.Sanity.Sanity_1"/>
+    </classes>
+  </test> <!-- Sanity_Test -->
+</suite> <!-- Sanity_Suite -->

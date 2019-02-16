@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke_Suite">
+  <test thread-count="5" name="Smoke_Test">
+    <classes>
+      <class name="com.Smoke.Smoke_6"/>
+      <class name="com.Smoke.Smoke_5"/>
+      <class name="com.Smoke.Smoke_4"/>
+      <class name="com.Smoke.Smoke_3"/>
+      <class name="com.Smoke.Smoke_2"/>
+      <class name="com.Smoke.Smoke_1"/>
+    </classes>
+  </test> <!-- Smoke_Test -->
+</suite> <!-- Smoke_Suite -->
